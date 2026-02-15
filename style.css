@@ -25,10 +25,18 @@ html.light {
   --switch-bg-url: url(./assets/Sun.svg);
 }
 
-body {
-  background: var(--bg-url) no-repeat top center/cover;
-  transition: background 0.3s ease; /* dica: suaviza a troca de fundo */
+
+html, body { height: 100%; }
+
+html {
+  min-height: 100%;
+  background: var(--bg-url) no-repeat top center / cover;
+  transition: background 0.3s ease;
 }
+
+body { min-height: 100%; }
+
+
 
 body * {
   font-family: "Inter", sans-serif;
@@ -38,9 +46,10 @@ body * {
 #container {
   width: 100%;
   max-width: 588px;
-  margin: 56px auto 0px;
-  padding: 0 24px;
+  margin: 0 auto;
+  padding: 56px 24px 0;
 }
+
 
 /* profile */
 #profile {
@@ -78,7 +87,7 @@ body * {
   z-index: 1;
 
   transform: translateY(-50%);
-  transition: left 0.3s ease, background 0.3s ease; /* dica: transição mais suave */
+  transition: left 0.3s ease, background 0.3s ease;
 }
 
 .light #switch button {
@@ -95,7 +104,7 @@ body * {
   -webkit-backdrop-filter: blur(4px);
   border-radius: 9999px;
 
-  transition: background 0.3s ease, border-color 0.3s ease; /* dica: troca de tema mais suave */
+  transition: background 0.3s ease, border-color 0.3s ease;
 }
 
 /* links */
@@ -129,7 +138,7 @@ ul li a {
 ul li a:hover {
   background: var(--surface-color-hover);
   border: 1.5px solid var(--text-color);
-  transform: translateY(-1px); /* dica: micro-interação (opcional, mas fica bonito) */
+  transform: translateY(-1px);
 }
 
 /* social links */
@@ -152,7 +161,7 @@ ul li a:hover {
 
 #social-links a:hover {
   background: var(--highlight-color);
-  transform: translateY(-1px); /* dica: micro-interação */
+  transform: translateY(-1px);
 }
 
 footer {
@@ -163,6 +172,8 @@ footer {
 
 /* -------- DESKTOP -------- */
 @media (min-width: 700px) {
+
+    
   :root {
     --bg-url: url(./assets/bg-desktop.jpg);
   }
@@ -171,7 +182,5 @@ footer {
     --bg-url: url(./assets/bg-desktop-light.jpg);
   }
 
-  #container {
-    width: 580px;
-  }
+  
 }
