@@ -1,0 +1,130 @@
+ANOTAÇÕES – PROJETO LINKTREE (HTML + CSS)
+
+1. Variáveis CSS (:root)
+   Servem para padronizar cores, imagens e valores reutilizáveis.
+   Facilitam trocar temas e evitar repetição de código.
+
+Exemplo:
+:root {
+--text-color: white;
+}
+
+Resumo:
+Variáveis deixam o CSS mais organizado e fácil de alterar.
+
+---
+
+2. Tema Dark e Light
+   É possível mudar o tema inteiro adicionando uma classe no HTML.
+
+Exemplo:
+html.light { }
+
+Resumo:
+Controlar temas através de classes é uma técnica muito usada em sites modernos.
+
+---
+
+3. Media Query (Responsividade)
+   Permite mudar estilos dependendo do tamanho da tela.
+
+Exemplo:
+@media (min-width: 700px) { }
+
+Resumo:
+Primeiro se desenvolve para mobile, depois adapta para telas maiores.
+
+---
+
+4. Glassmorphism (Efeito Vidro)
+   Criado com transparência + blur.
+
+Exemplo:
+backdrop-filter: blur(4px);
+
+Resumo:
+Esse efeito cria profundidade e aparência moderna.
+
+---
+
+5. Flexbox
+   Facilita alinhar elementos na horizontal e vertical.
+
+Exemplo:
+display: flex;
+align-items: center;
+justify-content: center;
+
+Resumo:
+Flexbox resolve a maior parte dos alinhamentos em layouts modernos.
+
+---
+
+6. Hover e Interações
+   Permite mudar aparência quando o usuário passa o mouse.
+
+Exemplo:
+a:hover { }
+
+Resumo:
+Pequenos efeitos deixam o design mais profissional.
+
+---
+
+7. Transition (Animações Suaves)
+   Cria transições entre estados.
+
+Exemplo:
+transition: 0.3s ease;
+
+Resumo:
+Transitions deixam as interações mais naturais e agradáveis.
+
+---
+
+8. Organização do CSS
+   Separar o código por seções ajuda na manutenção.
+
+Exemplo de organização:
+Profile
+Switch
+Links
+Social links
+Footer
+
+Resumo:
+CSS organizado é mais fácil de entender e modificar.
+
+---
+
+9. Responsividade do Container
+   Funções como min() ajudam o layout a se adaptar.
+
+Exemplo:
+width: min(560px, 92%);
+
+Resumo:
+Evita que o layout quebre em telas grandes ou pequenas.
+
+---
+
+10. Princípios importantes de design aprendidos
+    Design bonito não depende só de cores ou imagens.
+    Os fatores mais importantes são:
+
+* Espaçamento
+* Alinhamento
+* Consistência
+
+Resumo:
+Organização visual é mais importante que efeitos.
+
+---
+
+PRÓXIMOS ASSUNTOS PARA ESTUDAR
+
+* CSS Grid
+* Animações com transform
+* Estruturação de CSS (BEM)
+* Responsividade avançada
+* JavaScript para interações
