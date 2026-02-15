@@ -12,6 +12,12 @@ Este projeto foi desenvolvido durante um **curso gratuito da Rocketseat**, com o
 
 ---
 
+## 🔗 Projeto online
+
+[Acessar o projeto](https://thiagofernandes46.github.io/Projeto-Discovery/)
+
+---
+
 ## 🎨 Layout
 
 Você pode visualizar o layout original do projeto no Figma:
